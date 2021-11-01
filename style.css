@@ -1,0 +1,114 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: repeat-x;
+    text-align: center;
+    font-family: "Red Hat Display";
+}
+
+.main {
+    width: 450px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+h1 {
+    font-weight: 900;
+}
+
+.descr {
+    color: hsl(224, 23%, 55%);
+}
+
+.sub1 {
+    padding: 10%;
+}
+
+.plan {
+    background-color:  hsl(225, 100%, 98%);
+    padding: 5% 0% 5% 0%;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.music-icon {
+    padding-right: 0px;
+}
+
+.annual-plan {
+    text-align: left;
+    line-height: 75%;
+    padding-left: 0px;
+    margin-top: 1%;
+}
+
+#annual-text {
+    font-weight: 900;
+}
+
+#price-text {
+    color: hsl(224, 23%, 55%);
+}
+
+.annual-plan p {
+    margin-bottom: 10%;
+}
+
+.change {
+    margin-top: 2%;
+}
+.change a{
+    color: hsl(224, 23%, 55%);
+}
+
+.btn {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: none;
+    border-radius: 15px;
+    font-weight: 900;
+}
+
+.payment-btn {
+    background-color: hsl(246, 65%, 67%);
+    color: #fff;
+}
+
+.cancel-btn {
+    background: none;  
+    color: hsl(223, 47%, 23%);
+}
+
+.payment-btn:hover, .payment-btn:active {
+    background-color: hsl(246, 65%, 67%);
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.cancel-btn:hover, .cancel-btn:active {
+    background: none;
+    border: none;
+    color: hsl(223, 47%, 23%);
+}
+
+@media (max-width: 375px) {
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+    }
+    .main {
+        width: 350px;
+    }
+    #illu-hero-img {
+        width: 350px;
+        height: auto;
+    }
+    .music-icon {
+        padding: 0px;
+    }
+}
